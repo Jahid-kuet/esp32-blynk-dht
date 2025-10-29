@@ -1,5 +1,8 @@
 # ESP32 Blynk + DHT22 (PlatformIO / Wokwi)
 
+Main intention
+- Provide real-time temperature (and humidity) updates from a DHT22 sensor to the Blynk app and allow remote LED control via Blynk. The ESP32 reads the sensor periodically and pushes the values so the Blynk widgets show live updates (temperature → V0, humidity → V1). The Blynk button on V3 toggles an LED on GPIO 23.
+
 This project contains an ESP32 sketch that reads a DHT22 sensor and sends temperature and humidity to Blynk. It includes a Wokwi diagram for simulation.
 
 Files added:
